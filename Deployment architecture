@@ -1,0 +1,21 @@
+                    WINDOWS HOST
+                         │
+          ┌──────────────┴──────────────┐
+          │                             │
+          ▼                             ▼
+ ┌─────────────────────┐       ┌──────────────────┐
+ │   Docker Container  │       │      Ollama      │
+ │                     │       │                  │
+ │       FastAPI       │       │    Qwen3:4B      │
+ │       Whisper       │       │                  │
+ │       BART          │◄─────►│    :11434        │
+ │       FAISS         │       │                  │
+ │       LangGraph     │       └──────────────────┘
+ │       Embeddings    │
+ │                     │
+ │      :8000          │
+ └──────────┬──────────┘
+            │
+            ▼
+        REST API
+      localhost:8000
