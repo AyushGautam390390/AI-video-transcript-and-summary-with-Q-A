@@ -1,0 +1,6 @@
+
+
+Watching long videos to find specific information is time-consuming, especially when users need only a summary or answers to particular questions. This project 
+solves that problem by converting video content into text, automatically generating a concise summary, and allowing users to ask questions about the video. Using
+**Whisper, RAG, FAISS, LangGraph, and Qwen3**, the system retrieves relevant information from the video and generates context-aware answers without requiring users
+to watch the entire video.
